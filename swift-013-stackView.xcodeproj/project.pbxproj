@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		6F459A9826CBE2B1003272F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F459A9626CBE2B1003272F9 /* Main.storyboard */; };
 		6F459A9A26CBE2B3003272F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F459A9926CBE2B3003272F9 /* Assets.xcassets */; };
 		6F459A9D26CBE2B3003272F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F459A9B26CBE2B3003272F9 /* LaunchScreen.storyboard */; };
+		6F459AA526CBE3BD003272F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F459AA426CBE3BD003272F9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6F459A9926CBE2B3003272F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F459A9C26CBE2B3003272F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F459A9E26CBE2B3003272F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F459AA426CBE3BD003272F9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		6F459A8426CBE2B1003272F9 = {
 			isa = PBXGroup;
 			children = (
+				6F459AA426CBE3BD003272F9 /* README.md */,
 				6F459A8F26CBE2B1003272F9 /* swift-013-stackView */,
 				6F459A8E26CBE2B1003272F9 /* Products */,
 			);
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 6F459A8826CBE2B1003272F9 /* Build configuration list for PBXProject "swift-013-stackView" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,6 +130,7 @@
 			files = (
 				6F459A9D26CBE2B3003272F9 /* LaunchScreen.storyboard in Resources */,
 				6F459A9A26CBE2B3003272F9 /* Assets.xcassets in Resources */,
+				6F459AA526CBE3BD003272F9 /* README.md in Resources */,
 				6F459A9826CBE2B1003272F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,11 +296,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-013-stackView/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-013-stackView";
+				INFOPLIST_KEY_CFBundleName = "swift-013-stackView";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,11 +329,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-013-stackView/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-013-stackView";
+				INFOPLIST_KEY_CFBundleName = "swift-013-stackView";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
